@@ -15,7 +15,17 @@ Currently, we only adapted the softopt embedding attack used in the original pap
 The improved embedding attack achieves a 100% attack success rate (ASR) on both Mistral-7B-Instruct-v2 + RR and Llama-3-8B-Instruct + RR, improving the ASR by more than 80% compared to the original evaluation. 
 
 ## Citation
-If you find this useful in your research, please consider citing the original paper [paper](https://arxiv.org/abs/2406.04313):
+If you find this useful in your research, please consider citing our [work](https://arxiv.org/abs/2407.15902):
+```
+@article{schwinn2024revisiting,
+  title={Revisiting the Robust Alignment of Circuit Breakers},
+  author={Schwinn, Leo and Geisler, Simon},
+  journal={arXiv preprint arXiv:2407.15902},
+  year={2024}
+}
+```
+
+and the original paper [paper](https://arxiv.org/abs/2406.04313):
 ```
 @misc{zou2024circuitbreaker,
 title={Improving Alignment and Robustness with Circuit Breakers},
