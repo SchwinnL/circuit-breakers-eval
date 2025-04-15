@@ -3,7 +3,18 @@
 This is an independent robustness evaluation of Improving Alignment and Robustness with Circuit Breakers. For more information about the work see the repository of the [authors](https://github.com/GraySwanAI/circuit-breakers).
 We thank the authors for providing the models and for their support.
 
-# Changes
+# Code Changes
+
+Start experiment:
+```evaluation/embedding.ipynb```
+
+Code changes compared to original code:
+
+```evaluation/softopt.py```
+
+```evaluation/evaluate.py```
+
+# Attack Changes
 
 Currently, we only adapted the softopt embedding attack used in the original paper. 
 1) We use signed gradient descent instead of gradient descent as an optimizer
